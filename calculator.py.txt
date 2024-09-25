@@ -1,0 +1,29 @@
+print("Lets do some maths!")
+print("Enter + to Add")
+print("Enter - to Subtract ")
+print("Enter * to Multiply")
+print("Enter / to Divide")
+print("Enter % to obtain Remainder")
+print("Enter ^ to obtain the Power")
+print("Enter sqrt to obtain Square root")
+import math
+op=input("Enter the operator")
+a=int(input("Enter first operand"))
+b=int(input("Enter second operand"))
+if op=="+":
+    print("Sum is:",a+b)
+elif op=="-":
+    print("Difference is:",a-b)
+elif op=="*":
+    print("Product is:",a*b)
+elif op=="/":
+    print("Quotient is:",a/b)
+elif op=="%":
+    print("Reminder is:",a%b)
+elif op=="^":
+    print("Exponential value is:",a**b)
+elif op=="sqrt":
+    print("The square root is:",math.sqrt(a))
+else:
+    print("Invalid Operator")
+​
